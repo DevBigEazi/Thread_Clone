@@ -18,7 +18,7 @@ import { useState } from "react";
 
 const Actions = ({ liked, setLiked }) => {
   return (
-    <Flex flexDirection={"column"}>
+    <Flex flexDirection={"column"} cursor={"pointer"}>
       <Flex gap={3} my={2} onClick={(e) => e.preventDefault()}>
         <svg
           aria-label="Like"

@@ -10,6 +10,7 @@ import {
 import { BsThreeDots } from "react-icons/bs";
 import Actions from "../components/Actions";
 import { useState } from "react";
+import Comment from "../components/Comment";
 
 const PostPage = () => {
   const [liked, setLiked] = useState(false);
@@ -28,7 +29,7 @@ const PostPage = () => {
           <Flex gap={4} alignItems={"center"}>
             <Text
               fontSize={"xs"}
-              width={36}
+              width={360}
               textAlign={"right"}
               color={"gray.light"}>
               2 days ago
@@ -73,13 +74,7 @@ const PostPage = () => {
 
       <Divider my={4} />
 
-      {/* <Comment
-        key={reply._id}
-        reply={reply}
-        lastReply={
-          reply._id === currentPost.replies[currentPost.replies.length - 1]._id
-        }
-      /> */}
+      <Comment reply={"cool"} lastReply={"Hiiiii"} />
     </>
   );
 };
