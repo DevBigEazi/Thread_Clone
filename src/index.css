@@ -1,0 +1,19 @@
+.icon-container {
+   height: 40px;
+   width: 40px;
+   padding: 8px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   transition: background-color 0.3s ease-in-out;
+   -webkit-transition: background-color 0.3s ease-in-out;
+   -moz-transition: background-color 0.3s ease-in-out;
+   -ms-transition: background-color 0.3s ease-in-out;
+   -o-transition: background-color 0.3s ease-in-out;
+}
+
+.icon-container:hover {
+  background-color: #616161;
+}
