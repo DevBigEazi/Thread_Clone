@@ -74,7 +74,27 @@ const PostPage = () => {
 
       <Divider my={4} />
 
-      <Comment reply={"cool"} lastReply={"Hiiiii"} />
+      <Comment
+        comment={"This is cool"}
+        createdAt={"1 min ago"}
+        likes={13}
+        username={"JohnDoe"}
+        userAvatar={"https://bit.ly/kent-c-dodds"}
+      />
+      <Comment
+        comment={"Hey, this is awesome!"}
+        createdAt={"5 hrs ago"}
+        likes={2}
+        username={"Mubs"}
+        userAvatar={"https://bit.ly/sage-adebayo"}
+      />
+      <Comment
+        comment={"I really love my progress"}
+        createdAt={"4 days ago"}
+        likes={5}
+        username={"Opa"}
+        userAvatar={"https://bit.ly/prosper-baba"}
+      />
     </>
   );
 };
