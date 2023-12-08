@@ -118,15 +118,17 @@ export default function LoginCard() {
             </FormControl>
             <Stack spacing={10} pt={2}>
               <Button
-                loadingText="Submitting"
+                loadingText="Validating..."
                 size="lg"
                 bg={useColorModeValue("gray.600", "gray.700")}
                 color={"white"}
                 _hover={{
                   bg: useColorModeValue("gray.600", "gray.800"),
                 }}
-                onClick={handleLogin}>
-                {loading ? "Loging in..." : "Login"}
+                onClick={handleLogin}
+                isLoading={loading}>
+                {/* {loading ? "Loging in..." : "Login"} */}
+                Login
               </Button>
             </Stack>
             <Stack pt={6}>
